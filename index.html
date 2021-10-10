@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="first">
+    
+   <div class="secound">
+        <h2>Enter your text and show this tex information</h2>
+    <!-- <form>
+        <div class="child1">
+           <textarea id="input_text" cols="30" rows="10"></textarea>
+        </div>
+        <div class="child2">
+            <input type="submit" onclick="submit();" id="button" value="submit">
+            
+        </div>
+    </form> -->
+
+    <form>
+        <textarea id="input_text" cols="30" rows="10" type="text"></textarea>
+        <button type="button" id="button" onclick="addData()">submit</button>
+    </form>
+
+    <div class="result">
+        <h2>Text info</h2>
+    </div>
+    <div class="showresutl">
+        <div class="show">
+            <p>Text size</p>
+            <p id="size"></p>
+        </div>
+
+        <div class="show">
+            <p>Total letter</p>
+            <p id="tletter"></p>
+        </div>
+        <div class="show">
+            <p>Total word</p>
+            <p id="tword"></p>
+        </div>
+        <div class="show">
+            <p>Total Sentence</p>
+            <p id="tsentence"></p>
+        </div>
+        <div class="show">
+            <p>Total Symble</p>
+            <p id="tsymble"></p>
+        </div>
+        <div class="show">
+            <p>First letter</p>
+            <p id="fletter"></p>
+        </div>
+        <div class="show">
+            <p>First word</p>
+            <p id="fword"></p>
+        </div>
+        <div class="show">
+            <p>First sentence</p>
+            <p id="fsentence"></p>
+        </div>
+        <div class="show">
+            <p>Mid letter</p>
+            <p id="mletter"></p>
+        </div>
+        <div class="show">
+            <p>Mid word</p>
+            <p id="mword"></p>
+        </div>
+        <div class="show">
+            <p>Mid sentence</p>
+            <p id="msentence"></p>
+        </div>
+        <div class="show">
+            <p>Last letter</p>
+            <p id="lletter"></p>
+        </div>
+        <div class="show">
+            <p>Last word </p>
+            <p id="lword"></p>
+        </div>
+        <div class="show">
+            <p>Last sentence</p>
+            <p id="lsentence"></p>
+        </div>
+        <div class="show">
+            <p>Capital letter</p>
+            <p id="clitter"></p>
+        </div>
+        <div class="show">
+            <p>Small letter</p>
+            <p id="sletter"></p>
+        </div>
+        
+    </div>
+
+   </div>
+</div>
+
+    
+<script src="./main.js"></script>
+<!-- <script src="index.js"></script> -->
+</body>
+</html>
