@@ -154,7 +154,7 @@ for(let i=0; i<string.length; i++){
 
 
 
-    
+// print value in html     
 
 var htmlsize = '<p id="size">'+text_size+'</p>'
 size.insertAdjacentHTML("beforeend", htmlsize);
