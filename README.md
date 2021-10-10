@@ -5,4 +5,4 @@ I make this program with javaScript, html &amp; css. this program is work proper
 just run index.html on a browser
 
 //last thing, 
-This is my first project that why you find any mistake tell me my email. my email: ranasarderarob@gmail.com
+This is my first project that's why you find any mistake tell me my email. my email: ranasarderarob@gmail.com
