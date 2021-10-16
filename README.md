@@ -1,5 +1,5 @@
 # Text_information_with_javaScript
-I make this program with javaScript, html &amp; css. this program is work properly to see text information. 
+I make this program with javaScript, html &amp; css. this program is work properly to see text information. Its not a harmfull program. 
 
 //use information : 
 just run index.html on a browser
